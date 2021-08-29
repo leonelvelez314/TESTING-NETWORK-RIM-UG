@@ -1,3 +1,22 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #434c65;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.text
+{
+    color: white;
+    font-weight: 400;
+}
+#descripcion
+{
+    width: 700px;
+    text-align: center;
+    margin-bottom: 40px;
+}
 .flex{
     display: flex;    
 }
@@ -16,4 +35,40 @@
 
 .centerAligitems{
     align-items: center;
+}
+
+#forms input{
+    width: 500px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border-color: #434c65;
+    border: 0px;
+    margin-right: 7px;
+}
+
+#forms button{
+    margin-left: 7px;
+    outline: none;
+    border: 0px;
+    background-color: #f89344;
+    color: white;
+    border-radius: 4px;
+}
+
+#forms button:focus{
+    margin-left: 7px;
+    outline: none;
+    border: 0px;
+}
+
+#forms button:hover{
+    margin-left: 7px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+#grado p{
+    font-size: 90px;
+    color: white;
 }
