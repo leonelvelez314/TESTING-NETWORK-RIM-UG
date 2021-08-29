@@ -21,10 +21,15 @@ const onConsultarApi = async ()=>{
                 document.getElementById("madurez").innerHTML = content.respuesta
             }
             
+        }else{
+            alert("Al parecer la url que ingreso no es una imagen o el servio no esta disponible")
+            document.getElementById("madurez").innerHTML = "-1"
         }        
         spinner.style.display = "none"
     }catch(error){
+        alert("Al parecer la url que ingreso no es una imagen o el servio no esta disponible")
         spinner.style.display = "none"
+        document.getElementById("madurez").innerHTML = "-1"
         console.log(error)
     }
     
