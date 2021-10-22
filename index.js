@@ -4,7 +4,7 @@ const onConsultarApi = async ()=>{
         const input = document.getElementById("url")    
         let spinner = document.getElementById("spinner")
         spinner.style.display = "flex"
-        const rawResponse = await fetch('https://rim-ug-api2.azurewebsites.net/predecir', {
+        const rawResponse = await fetch('https://rim-ug-329815.uc.r.appspot.com/predecir', {
             method: 'POST',
             headers: {
             'Accept': 'application/json',
